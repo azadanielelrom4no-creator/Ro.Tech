@@ -1,1 +1,47 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0b0b14;
+color: white;
+}
 
+.topbar {
+background: #140f2d;
+padding: 8px 20px;
+font-size: 14px;
+display: flex;
+justify-content: space-between;
+}
+
+.navbar {
+background: #140f2d;
+padding: 15px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-links a {
+color: white;
+margin-right: 20px;
+text-decoration: none;
+}
+
+.hero {
+height: 500px;
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
+url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600");
+background-size: cover;
+display: flex;
+align-items: center;
+padding-left: 60px;
+}
+
+.btn {
+background: #ffc107;
+color: black;
+padding: 12px 20px;
+border-radius: 5px;
+cursor: pointer;
+border: none;
+}
